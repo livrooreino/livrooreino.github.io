@@ -32,3 +32,10 @@ youtube-src-descricoes.py
 
 # Inventarios das redes (dados internos, nunca publicos)
 redes-inventario/
+
+# Plano interno dos videos e leitor do canal
+PLANO-VIDEOS-2026.md
+youtube-src-inventario.py
+
+# Kit de divulgacao da marca anonima (material interno)
+kit-cofre/
