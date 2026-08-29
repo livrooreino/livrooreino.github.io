@@ -50,3 +50,6 @@ PLURALIDADE.md
 _arquivo-morto/
 RELATORIO-FAXINA.md
 _mural/
+# lixo do interpretador Python (py_compile). Repo PUBLICO: nao subir.
+__pycache__/
+*.pyc
