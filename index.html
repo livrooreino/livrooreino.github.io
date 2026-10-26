@@ -200,6 +200,11 @@ section{padding-block:clamp(4rem,9vw,7.5rem)}
 }
 .strip figure:hover img{transform:translateY(-6px);box-shadow:0 24px 44px -14px rgba(0,0,0,.85),0 0 34px -8px rgba(201,161,95,.3)}
 .strip-hint{font-size:.9rem;color:var(--ink-dim);font-style:italic;margin-top:.4rem}
+.personagens{overflow:hidden}
+.personagens .strip figure{width:min(300px,74vw)}
+.personagens .strip img{aspect-ratio:4/5}
+.personagens .strip figure:hover img{transform:none}
+.personagens .strip a{display:block}
 
 /* Trailers */
 .trailers{background:var(--bg-2);border-block:1px solid var(--line)}
@@ -299,6 +304,7 @@ footer{border-top:1px solid var(--line);padding:3rem 0 2.5rem;background:var(--b
   <a class="brand" href="#inicio">O REINO</a>
   <nav class="topnav" aria-label="Navegação principal">
     <div class="nav-links">
+      <a href="#personagens">Personagens</a>
       <a href="#obra">A Obra</a>
       <a href="#ilustracoes">Ilustrações</a>
       <a href="#trailers">Trailers</a>
@@ -327,6 +333,30 @@ footer{border-top:1px solid var(--line);padding:3rem 0 2.5rem;background:var(--b
       <img src="assets/capa.jpg" alt="Capa do livro O Reino: Uma Nova Utopia Social — brasão dourado ornamentado sobre fundo escuro" width="900" height="1230" fetchpriority="high">
       <figcaption>Editora Valer · 2024 · 530 páginas · 22 ilustrações</figcaption>
     </figure>
+  </div>
+</section>
+
+<!-- ============ PERSONAGENS ============ -->
+<section class="galeria personagens" id="personagens">
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2 class="section-title">Os personagens</h2>
+    <p class="section-lead">Os rostos de <em>O Reino</em>, em cartazes de cinema. Toque num cartaz para vê-lo grande.</p>
+  </div>
+  <div class="wrap">
+    <div class="strip" tabindex="0" aria-label="Cartazes dos personagens do livro; role horizontalmente">
+      <figure><a href="assets/personagens/01-elenco-grande.jpg" target="_blank" rel="noopener"><img src="assets/personagens/01-elenco.jpg" alt="Cartaz: O elenco: o rei, a rainha Angélica, a princesa Diana e o demônio Aka Manah" width="600" height="750" loading="lazy"></a></figure>
+      <figure><a href="assets/personagens/02-rei-grande.jpg" target="_blank" rel="noopener"><img src="assets/personagens/02-rei.jpg" alt="Cartaz: O rei, de armadura futurista, diante de fantasmas brancos" width="600" height="750" loading="lazy"></a></figure>
+      <figure><a href="assets/personagens/07-rainha-tres-faces-grande.jpg" target="_blank" rel="noopener"><img src="assets/personagens/07-rainha-tres-faces.jpg" alt="Cartaz: As três faces da rainha Angélica" width="600" height="750" loading="lazy"></a></figure>
+      <figure><a href="assets/personagens/09-erika-grande.jpg" target="_blank" rel="noopener"><img src="assets/personagens/09-erika.jpg" alt="Cartaz: Erika diante de uma explosão nuclear vista da janela" width="600" height="750" loading="lazy"></a></figure>
+      <figure><a href="assets/personagens/06-dr-michel-grande.jpg" target="_blank" rel="noopener"><img src="assets/personagens/06-dr-michel.jpg" alt="Cartaz: Doutor Michel" width="600" height="750" loading="lazy"></a></figure>
+      <figure><a href="assets/personagens/05-chaman-grande.jpg" target="_blank" rel="noopener"><img src="assets/personagens/05-chaman.jpg" alt="Cartaz: Chaman, a inteligência artificial" width="600" height="750" loading="lazy"></a></figure>
+      <figure><a href="assets/personagens/12-aron-grande.jpg" target="_blank" rel="noopener"><img src="assets/personagens/12-aron.jpg" alt="Cartaz: Aron, de joelhos" width="600" height="750" loading="lazy"></a></figure>
+      <figure><a href="assets/personagens/13-ciborgue-grande.jpg" target="_blank" rel="noopener"><img src="assets/personagens/13-ciborgue.jpg" alt="Cartaz: O ciborgue" width="600" height="750" loading="lazy"></a></figure>
+      <figure><a href="assets/personagens/03-aka-manah-grande.jpg" target="_blank" rel="noopener"><img src="assets/personagens/03-aka-manah.jpg" alt="Cartaz: Aka Manah, o demônio dos pensamentos malditos" width="600" height="750" loading="lazy"></a></figure>
+      <figure><a href="assets/personagens/14-fabio-grande.jpg" target="_blank" rel="noopener"><img src="assets/personagens/14-fabio.jpg" alt="Cartaz: Fábio" width="600" height="750" loading="lazy"></a></figure>
+    </div>
+    <p class="strip-hint">Deslize para o lado para ver mais →</p>
   </div>
 </section>
 
